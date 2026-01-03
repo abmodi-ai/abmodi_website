@@ -5,10 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Agentic AI Architect | Pharma 5.0 Transformation</title>
-  <link rel="stylesheet" href="./style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 </head>
 
 <body>
@@ -16,7 +16,14 @@
     style="position: fixed; top: 0; width: 100%; z-index: 1000; border-radius: 0; border-bottom: 1px solid var(--glass-border);">
     <div class="container"
       style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem;">
-      <div class="logo" style="font-weight: 700; font-size: 1.2rem; color: var(--accent-color);">A.B. MODI LLC</div>
+      <div class="logo-group" style="display: flex; flex-direction: column; width: fit-content; text-align: left;">
+        <div class="logo"
+          style="font-weight: 900; font-size: 1.4rem; color: var(--accent-color); line-height: 1; letter-spacing: 0.12em;">
+          A.B. MODI</div>
+        <div
+          style="font-size: 0.6rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.16em; line-height: 1; margin-top: 0.4rem; white-space: nowrap;">
+          Agentic AI Architect</div>
+      </div>
       <nav>
         <ul style="display: flex; list-style: none; gap: 2rem;">
           <li><a href="#vision">My Vision</a></li>
@@ -30,31 +37,47 @@
   <main>
     <!-- Hero Section -->
     <section id="hero"
-      style="min-height: 100vh; display: flex; align-items: center; background: radial-gradient(circle at center, var(--secondary-bg) 0%, var(--primary-bg) 100%); position: relative; overflow: hidden;">
+      style="min-height: 100vh; display: flex; align-items: center; background: radial-gradient(circle at top right, var(--secondary-bg) 0%, var(--primary-bg) 70%); position: relative; overflow: hidden;">
+      <div
+        style="position: absolute; top: 10%; right: -5%; width: 500px; height: 500px; background: var(--accent-glow); filter: blur(120px); border-radius: 50%; opacity: 0.2;">
+      </div>
       <div class="container"
         style="position: relative; z-index: 2; display: grid; grid-template-columns: 1.2fr 1fr; gap: 4rem; align-items: center;">
         <div class="reveal">
-          <h1 style="font-size: 4.5rem; margin-bottom: 1.5rem;">I Architect the Future of <span
-              style="color: var(--accent-color);">Pharma 5.0</span></h1>
-          <p style="font-size: 1.25rem; color: var(--text-muted); margin-bottom: 2.5rem; max-width: 600px;">
-            I help BioTech and Pharma leaders harness Human-Machine Collaboration to achieve new levels of speed,
-            quality, and accuracy.
+          <div
+            style="display: inline-block; padding: 0.5rem 1rem; background: rgba(0, 242, 255, 0.1); border: 1px solid var(--accent-color); border-radius: 2rem; color: var(--accent-color); font-size: 0.8rem; font-weight: 700; margin-bottom: 2rem; letter-spacing: 0.1em; text-transform: uppercase;">
+            High-Impact Agentic AI for BioTech & Pharma
+          </div>
+          <h1 style="font-size: 5rem; margin-bottom: 1.5rem; line-height: 1.1;">Architecting <br><span
+              style="color: var(--accent-color); text-shadow: 0 0 20px var(--accent-glow);">Pharma 5.0</span></h1>
+          <p
+            style="font-size: 1.3rem; color: var(--text-muted); margin-bottom: 2.5rem; max-width: 650px; line-height: 1.6;">
+            I architect Agentic AI systems for BioTech and Pharma that prioritize speed, accuracy, and quality.
+            By keeping your experts in the loop, I empower Quality, Regulatory, and HEOR teams to automate the
+            mundane
+            and master domain-specific complexity with unprecedented precision.
           </p>
-          <a href="#contact" class="glass"
-            style="padding: 1rem 2.5rem; font-weight: 700; color: var(--accent-color); border: 1px solid var(--accent-color); background: rgba(0, 242, 255, 0.05); transition: all 0.3s; display: inline-block;">
-            Work With Me
-          </a>
+          <div style="display: flex; gap: 1.5rem; align-items: center;">
+            <a href="#contact" class="glass"
+              style="padding: 1.2rem 3rem; font-weight: 700; color: var(--primary-bg); background: var(--accent-color); border: 1px solid var(--accent-color); transition: all 0.3s; transform: perspective(1px) translateZ(0); box-shadow: 0 10px 30px rgba(0, 242, 255, 0.2);">
+              Get Started
+            </a>
+            <a href="#vision"
+              style="font-weight: 600; color: var(--text-main); text-decoration: underline; text-underline-offset: 8px; transition: color 0.3s;">
+              View My Vision
+            </a>
+          </div>
         </div>
         <div class="reveal hero-profile" style="position: relative;">
           <div
-            style="position: absolute; inset: -10px; border: 2px solid var(--accent-color); border-radius: 2rem; opacity: 0.3; z-index: -1;">
+            style="position: absolute; inset: -20px; border: 1px solid var(--accent-color); border-radius: 2rem; opacity: 0.2; z-index: -1;">
           </div>
           <img src="/profile.jpg" alt="A.B. Modi - Agentic AI Architect"
-            style="width: 100%; border-radius: 1.5rem; box-shadow: 0 0 30px var(--accent-glow); border: 1px solid var(--glass-border); display: block;">
+            style="width: 100%; border-radius: 1.5rem; box-shadow: 0 0 50px rgba(0, 242, 255, 0.1); border: 1px solid var(--glass-border); display: block;">
           <div class="glass"
-            style="position: absolute; bottom: -20px; left: -20px; padding: 1rem 2rem; border-radius: 1rem;">
-            <div style="font-weight: 700; color: var(--accent-color);">A.B. Modi</div>
-            <div style="font-size: 0.8rem; color: var(--text-muted);">Agentic AI Architect</div>
+            style="position: absolute; bottom: -30px; left: -30px; padding: 1.5rem 2.5rem; border-radius: 1rem; border: 1px solid var(--accent-color);">
+            <div style="font-weight: 700; color: var(--accent-color); font-size: 1.2rem;">A.B. Modi</div>
+            <div style="font-size: 0.9rem; color: var(--text-muted);">Agentic AI Architect</div>
           </div>
         </div>
       </div>
@@ -63,7 +86,7 @@
     <!-- Vision Section -->
     <section id="vision" class="container">
       <div style="text-align: center; margin-bottom: 4rem;">
-        <h2 class="reveal" style="font-size: 3rem; margin-bottom: 1rem;">My Vision for Pharma 5.0</h2>
+        <h2 class="reveal" style="font-size: 3rem; margin-bottom: 1rem; margin-top: 2rem;">My Vision for Pharma 5.0</h2>
         <p class="reveal" style="color: var(--text-muted); max-width: 700px; margin: 0 auto;">
           Pharma 4.0 was about digitalization. I believe Pharma 5.0 is about <strong>collaboration</strong>. I empower
           your teams with autonomous agents to redefine productivity and innovation.
@@ -77,11 +100,11 @@
             help your best scientists handle complexity and execute at unprecedented scale.</p>
           <ul style="list-style: none;">
             <li style="margin-bottom: 0.5rem; display: flex; align-items: center;"><span
-                style="color: var(--emerald); margin-right: 0.5rem;">✓</span> Accelerate Lead Discovery</li>
+                style="color: var(--emerald); margin-right: 0.5rem;">✓</span> Autonomous Compliance Cycles</li>
             <li style="margin-bottom: 0.5rem; display: flex; align-items: center;"><span
-                style="color: var(--emerald); margin-right: 0.5rem;">✓</span> Quality-by-Design Execution</li>
+                style="color: var(--emerald); margin-right: 0.5rem;">✓</span> Automated HTA & Dossiers</li>
             <li style="margin-bottom: 0.5rem; display: flex; align-items: center;"><span
-                style="color: var(--emerald); margin-right: 0.5rem;">✓</span> Human-Led, AI-Powered Accuracy</li>
+                style="color: var(--emerald); margin-right: 0.5rem;">✓</span> Human-Led, AI-Powered Precision</li>
           </ul>
         </div>
         <div
@@ -94,65 +117,319 @@
       </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- Core Capabilities Section -->
     <section id="services" class="container">
-      <h2 class="reveal" style="font-size: 3rem; text-align: center; margin-bottom: 4rem;">How I Can Help You</h2>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
-        <div class="glass reveal" style="padding: 2rem; transition: transform 0.3s; overflow: hidden;">
-          <img src="/drug_discovery_card_1767064932942.png" alt="Drug Discovery"
-            style="width: 100%; height: 200px; object-fit: cover; border-radius: 0.5rem; margin-bottom: 1.5rem;">
-          <h3>Lead Identification AI</h3>
-          <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 1rem;">I architect systems that
-            autonomously simulate molecular behavior to find lead compounds faster.</p>
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <h2 class="reveal" style="font-size: 3.5rem; margin-bottom: 1rem; margin-top: 2rem;">Departmental Focus</h2>
+        <p class="reveal" style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">
+          Architecting agentic solutions tailored to the critical workflows of three core pillars.
+        </p>
+      </div>
+      <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2.5rem; margin-bottom: 6rem;">
+        <!-- QA -->
+        <div class="glass reveal" style="padding: 2.5rem; transition: transform 0.3s ease; cursor: default;">
+          <img src="/qa_veeva_v2.jpg" alt="Quality Assurance"
+            style="width: 100%; height: 240px; object-fit: cover; border-radius: 1rem; margin-bottom: 2rem;">
+          <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Quality Assurance</h3>
+          <p style="color: var(--text-muted); font-size: 1rem; margin-bottom: 1.5rem;">I build agents that orchestrate
+            QMS workflows, bi-directionally syncing with Veeva Vault to automate deviation management and CAPA cycles.
+          </p>
+          <ul style="list-style: none; font-size: 0.9rem; color: var(--accent-color);">
+            <li>✓ QMS & Veeva Orchestration</li>
+            <li>✓ Deviation & CAPA Automation</li>
+            <li>✓ Audit Readiness Monitoring</li>
+          </ul>
         </div>
-        <div class="glass reveal" style="padding: 2rem; transition: transform 0.3s; overflow: hidden;">
-          <img src="/clinical_trials_card_1767064945166.png" alt="Clinical Trials"
-            style="width: 100%; height: 200px; object-fit: cover; border-radius: 0.5rem; margin-bottom: 1.5rem;">
-          <h3>Intelligent Clinical Trial Design</h3>
-          <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 1rem;">I optimize patient matching and
-            real-time trial monitoring with agentic data orchestration.</p>
+        <!-- Regulatory -->
+        <div class="glass reveal" style="padding: 2.5rem; transition: transform 0.3s ease; cursor: default;">
+          <img src="/regulatory_v2.jpg" alt="Regulatory Affairs"
+            style="width: 100%; height: 240px; object-fit: cover; border-radius: 1rem; margin-bottom: 2rem;">
+          <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Regulatory Affairs</h3>
+          <p style="color: var(--text-muted); font-size: 1rem; margin-bottom: 1.5rem;">I architect systems that track
+            global regulatory changes in real-time and automate complex HTA development and IND/NDA technical writing.
+          </p>
+          <ul style="list-style: none; font-size: 0.9rem; color: var(--accent-color);">
+            <li>✓ Global Reg-Change Tracking</li>
+            <li>✓ HTA Development Assistants</li>
+            <li>✓ Submission Doc Automation</li>
+          </ul>
         </div>
-        <div class="glass reveal" style="padding: 2rem; transition: transform 0.3s; overflow: hidden;">
-          <div
-            style="width: 100%; height: 200px; background: linear-gradient(45deg, var(--secondary-bg), var(--primary-bg)); border-radius: 0.5rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center;">
-            <span style="font-size: 3rem;">🧬</span>
+        <!-- HEOR -->
+        <div class="glass reveal" style="padding: 2.5rem; transition: transform 0.3s ease; cursor: default;">
+          <img src="/heor_v2.jpg" alt="HEOR"
+            style="width: 100%; height: 240px; object-fit: cover; border-radius: 1rem; margin-bottom: 2rem;">
+          <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">HEOR</h3>
+          <p style="color: var(--text-muted); font-size: 1rem; margin-bottom: 1.5rem;">Collaborating with Health
+            Economists to generate Target Product Profiles (TPP) and Dossiers from comprehensive economic assessments.
+          </p>
+          <ul style="list-style: none; font-size: 0.9rem; color: var(--accent-color);">
+            <li>✓ TPP Development Workflows</li>
+            <li>✓ Dossier Generation Agents</li>
+            <li>✓ Value Prop Orchestration</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Impact Section -->
+    <section id="cases" style="background: var(--secondary-bg);">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 5rem;">
+          <h2 class="reveal" style="font-size: 3.5rem; margin-bottom: 1rem;">Proven Departmental Impact</h2>
+          <p class="reveal" style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">
+            Strategic implementations that redefined workload management across the Pharma value chain.
+          </p>
+        </div>
+        <div style="display: grid; gap: 3rem;">
+          <!-- Quality/Veeva Case -->
+          <div class="glass reveal"
+            style="padding: 3rem; display: grid; grid-template-columns: 1fr 1.5fr; gap: 4rem; align-items: center;">
+            <div>
+              <div
+                style="color: var(--accent-color); font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.1em;">
+                QA Impact</div>
+              <h3 style="font-size: 2.2rem; margin-bottom: 1.5rem;">The Autonomous Quality Unit</h3>
+              <p style="color: var(--text-muted); margin-bottom: 2rem;">I architected a cognitive unit for a
+                pharma leader that monitors deviation reports and bi-directionally syncs with Veeva Vault, reducing
+                manual review time by 85%.</p>
+              <div style="display: flex; gap: 2rem;">
+                <div>
+                  <div style="font-size: 2rem; color: var(--accent-color); font-weight: 700;">85%</div>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Faster Review</div>
+                </div>
+                <div>
+                  <div style="font-size: 2rem; color: var(--accent-color); font-weight: 700;">100%</div>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Audit Readiness</div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="background: var(--primary-bg); border-radius: 1rem; border: 1px solid var(--glass-border); overflow: hidden;">
+              <img src="/qa_veeva_v2.jpg" alt="QA Impact"
+                style="width: 100%; height: 100%; object-fit: cover; opacity: 0.6;">
+            </div>
           </div>
-          <h3>Personalized Medicine Engines</h3>
-          <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 1rem;">I build adaptive AI systems that
-            tailor treatments to unique genomic profiles.</p>
+
+          <!-- Regulatory -->
+          <div class="glass reveal"
+            style="padding: 3rem; display: grid; grid-template-columns: 1.5fr 1fr; gap: 4rem; align-items: center;">
+            <div
+              style="background: var(--primary-bg); border-radius: 1rem; border: 1px solid var(--glass-border); overflow: hidden;">
+              <img src="/regulatory_v2.jpg" alt="Regulatory Impact"
+                style="width: 100%; height: 100%; object-fit: cover; opacity: 0.6;">
+            </div>
+            <div>
+              <div
+                style="color: var(--accent-color); font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.1em;">
+                Regulatory Impact</div>
+              <h3 style="font-size: 2.2rem; margin-bottom: 1.5rem;">Global Regulatory Orchestrator</h3>
+              <p style="color: var(--text-muted); margin-bottom: 2rem;">I deployed agentic workflows to track 50+ global
+                regulatory bodies, automating technical writing for HTA submissions and reducing IND filing timelines by
+                40%.</p>
+              <div style="display: flex; gap: 2rem;">
+                <div>
+                  <div style="font-size: 2rem; color: var(--accent-color); font-weight: 700;">40%</div>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Faster Filings</div>
+                </div>
+                <div>
+                  <div style="font-size: 2rem; color: var(--accent-color); font-weight: 700;">Zero</div>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Missed Updates</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- HEOR Case -->
+          <div class="glass reveal"
+            style="padding: 3rem; display: grid; grid-template-columns: 1fr 1.5fr; gap: 4rem; align-items: center;">
+            <div>
+              <div
+                style="color: var(--accent-color); font-weight: 700; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.1em;">
+                HEOR Impact</div>
+              <h3 style="font-size: 2.2rem; margin-bottom: 1.5rem;">TPP & Dossier Factory</h3>
+              <p style="color: var(--text-muted); margin-bottom: 2rem;">I built an HEOR-centric workflow that takes
+                Health
+                Economic Assessments and generates fully formatted TPPs and Dossiers, allowing economists to focus on
+                strategic evidence instead of documentation.</p>
+              <div style="display: flex; gap: 2rem;">
+                <div>
+                  <div style="font-size: 2rem; color: var(--accent-color); font-weight: 700;">60%</div>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Doc Generation</div>
+                </div>
+                <div>
+                  <div style="font-size: 2rem; color: var(--accent-color); font-weight: 700;">$1.2M+</div>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">OpEx Efficiency</div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="background: var(--primary-bg); border-radius: 1rem; border: 1px solid var(--glass-border); overflow: hidden;">
+              <img src="/heor_v2.jpg" alt="HEOR Impact"
+                style="width: 100%; height: 100%; object-fit: cover; opacity: 0.6;">
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="container">
+      <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 4rem;">
+        <div class="reveal" style="padding: 2rem; border-left: 2px solid var(--accent-color);">
+          <p style="font-style: italic; font-size: 1.2rem; margin-bottom: 1.5rem; color: var(--text-main);">"I've
+            contracted with A.B. for over a year and he built the exact software I needed to grow my business. A.B. is
+            exceptional at quickly understanding business needs, user use cases, and translating them into clear
+            technical requirements. Then he leads the build and produces quality work. As a non-technical founder, that
+            made all the difference.
+            He’s proactive with AI, works fast, and consistently delivers strong software and workflows. After reviewing
+            over a dozen agencies, choosing A.B. and his team was an easy call.
+            If you’re a non-technical leader who needs to build real software, A.B. is the one you should work with."
+          </p>
+          <div style="font-weight: 700; color: var(--accent-color);">Jacob Bradley, PhD</div>
+        </div>
+        <div class="reveal" style="padding: 2rem; border-left: 2px solid var(--accent-color);">
+          <p style="font-style: italic; font-size: 1.2rem; margin-bottom: 1.5rem; color: var(--text-main);">"I hired
+            A.B. Modi to build an MVP in Bubble, including designing UX/UI and landing page. The reason I hired A.B.
+            Modi is that of all the prospective developers I talked to, he came off as the most genuine and easy to talk
+            to. My gut told me I could trust him to provide good service and he did not disappoint. His team is very
+            professional and abreast of all the current trends in technology and can provide the best solution to fit
+            your needs and budget. They've even gone above and beyond to help with issues that technically they're not
+            even responsible for. You'll feel that you've gained a true partner and not just a developer. I highly
+            recommend A.B. Modi for your developement needs."</p>
+          <div style="font-weight: 700; color: var(--accent-color);">Adam Darrow</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="container">
+      <div style="text-align: center; margin-bottom: 5rem;">
+        <h2 class="reveal" style="font-size: 3.5rem; margin-bottom: 1rem; margin-top: 4rem;">The Architecture Process
+        </h2>
+        <p class="reveal" style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">
+          Architecting systems for speed, accuracy, and quality to build the cognitive foundations of pharmaceutical
+          innovation.
+        </p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+        <div class="reveal"
+          style="padding: 2.5rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 1.5rem;">
+          <div
+            style="width: 50px; height: 50px; background: var(--accent-color); color: var(--primary-bg); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; margin-bottom: 2rem;">
+            01</div>
+          <h3 style="margin-bottom: 1rem;">Discovery & Audit</h3>
+          <p style="color: var(--text-muted);">Mapping existing data silos and identifying high-leverage opportunities
+            for agentic automation.</p>
+        </div>
+      </div>
+      <div class="reveal"
+        style="padding: 2.5rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 1.5rem;">
+        <div
+          style="width: 50px; height: 50px; background: var(--accent-color); color: var(--primary-bg); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; margin-bottom: 2rem;">
+          02</div>
+        <h3 style="margin-bottom: 1rem;">Cognitive Blueprint</h3>
+        <p style="color: var(--text-muted);">Architecting the multi-agent system, defining roles, tools, and
+          human-in-the-loop protocols.</p>
+      </div>
+      <div class="reveal"
+        style="padding: 2.5rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 1.5rem;">
+        <div
+          style="width: 50px; height: 50px; background: var(--accent-color); color: var(--primary-bg); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; margin-bottom: 2rem;">
+          03</div>
+        <h3 style="margin-bottom: 1rem;">Pilot Scaling</h3>
+        <p style="color: var(--text-muted);">Deploying "Cognitive Twins" in controlled environments before full
+          enterprise integration.</p>
+      </div>
+      <div class="reveal"
+        style="padding: 2.5rem; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); border-radius: 1.5rem;">
+        <div
+          style="width: 50px; height: 50px; background: var(--accent-color); color: var(--primary-bg); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.2rem; margin-bottom: 2rem;">
+          04</div>
+        <h3 style="margin-bottom: 1rem;">Pharma 5.0 Ops</h3>
+        <p style="color: var(--text-muted);">Ongoing optimization of agentic workflows with real-world evidence and
+          scientist feedback.</p>
+      </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container" style="text-align: center; max-width: 800px;">
-      <div class="glass reveal" style="padding: 4rem;">
-        <h2 style="font-size: 3rem; margin-bottom: 1rem;">Let's Transform Your Industry</h2>
-        <p style="color: var(--text-muted); margin-bottom: 3rem;">I'm ready to help you architect an agentic future.
-          Reach out for a limited consultancy engagement.</p>
-        <form style="display: grid; gap: 1rem; text-align: left;">
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
-            <input type="text" placeholder="Your Name" class="glass" style="padding: 1rem; color: white;">
-            <input type="email" placeholder="Your Work Email" class="glass" style="padding: 1rem; color: white;">
-          </div>
-          <textarea placeholder="Tell me about your transformation goals" class="glass" rows="4"
-            style="padding: 1rem; color: white;"></textarea>
-          <button type="submit" class="glass"
-            style="padding: 1rem; font-weight: 700; color: var(--primary-bg); background: var(--accent-color); border: none; cursor: pointer;">
-            Request Consultation
-          </button>
-        </form>
+    <section id="contact"
+      style="background: radial-gradient(circle at bottom left, var(--secondary-bg) 0%, var(--primary-bg) 50%);">
+      <div class="container" style="max-width: 900px;">
+        <div class="glass reveal" style="padding: 5rem; text-align: center;">
+          <h2 style="font-size: 3.5rem; margin-bottom: 1rem;">Architect Your 2026 Future</h2>
+          <p style="color: var(--text-muted); margin-bottom: 3.5rem; font-size: 1.2rem;">Specifically seeking
+            partnerships with <strong>Pharma and BioTech QA and Regulatory teams</strong> for high-impact Q1
+            engagements.</p>
+          <form style="display: grid; gap: 1.5rem; text-align: left;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+              <input type="text" placeholder="Your Name" class="glass"
+                style="padding: 1.2rem; color: white; background: rgba(255,255,255,0.03);">
+              <input type="email" placeholder="Your Work Email" class="glass"
+                style="padding: 1.2rem; color: white; background: rgba(255,255,255,0.03);">
+            </div>
+            <textarea placeholder="Tell me about your QA or Regulatory transformation goals" class="glass" rows="4"
+              style="padding: 1.2rem; color: white; background: rgba(255,255,255,0.03);"></textarea>
+            <button type="submit" class="glass"
+              style="padding: 1.2rem; font-weight: 700; color: var(--primary-bg); background: var(--accent-color); border: none; cursor: pointer; font-size: 1.1rem; box-shadow: 0 10px 30px rgba(0, 242, 255, 0.2);">
+              Request High-Impact Consult
+            </button>
+          </form>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="container"
-    style="padding: 4rem 0; border-top: 1px solid var(--glass-border); text-align: center; color: var(--text-muted); font-size: 0.9rem;">
-    &copy; 2025 A.B. Modi LLC. All rights reserved. <br>
-    Agentic AI Architect for BioTech & Pharma.
+  <footer style="padding: 6rem 0 3rem; border-top: 1px solid var(--glass-border); background: #010409;">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 4rem; margin-bottom: 4rem;">
+        <div>
+          <div
+            style="display: flex; flex-direction: column; margin-bottom: 2rem; width: fit-content; text-align: left;">
+            <div
+              style="font-weight: 700; font-size: 1.8rem; color: var(--accent-color); line-height: 1; letter-spacing: 0.02em;">
+              A.B. MODI</div>
+            <div
+              style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.18em; line-height: 1; margin-top: 0.5rem; white-space: nowrap;">
+              Agentic AI Architect</div>
+          </div>
+          <p style="color: var(--text-muted); max-width: 300px;">Helping the world's leading BioTech and Pharmaceutical
+            companies transition to Pharma 5.0 through Agentic AI.</p>
+        </div>
+        <div>
+          <h4
+            style="color: var(--text-main); margin-bottom: 1.5rem; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.1em;">
+            Links</h4>
+          <ul style="list-style: none; display: grid; gap: 0.8rem;">
+            <li><a href="#vision" style="color: var(--text-muted);">Vision</a></li>
+            <li><a href="#services" style="color: var(--text-muted);">Services</a></li>
+            <li><a href="#cases" style="color: var(--text-muted);">Impact</a></li>
+            <li><a href="#contact" style="color: var(--text-muted);">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4
+            style="color: var(--text-main); margin-bottom: 1.5rem; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.1em;">
+            Connect</h4>
+          <ul style="list-style: none; display: grid; gap: 0.8rem;">
+            <li><a href="https://www.linkedin.com/in/abmodi-ai/" target="_blank" rel="noopener noreferrer"
+                style="color: var(--text-muted);">LinkedIn</a></li>
+            <li><a href="https://github.com/abmodi-ai" target="_blank" rel="noopener noreferrer"
+                style="color: var(--text-muted);">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+      <div
+        style="text-align: center; color: var(--text-muted); font-size: 0.85rem; padding-top: 3rem; border-top: 1px solid rgba(255,255,255,0.05);">
+        &copy; 2026 A.B. Modi LLC. All rights reserved. <br>
+        <span style="font-size: 0.7rem; opacity: 0.5;">Designed for Pharma 5.0 Engagement</span>
+      </div>
+    </div>
   </footer>
 
-  <script type="module" src="./main.js"></script>
+  <script type="module" src="/main.js"></script>
 </body>
 
 </html>

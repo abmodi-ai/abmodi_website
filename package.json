@@ -5,6 +5,8 @@
   "main": "main.js",
   "scripts": {
     "dev": "vite",
+    "build": "vite build",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +15,11 @@
   "type": "commonjs",
   "devDependencies": {
     "vite": "^7.3.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemailer": "^7.0.12"
   }
 }

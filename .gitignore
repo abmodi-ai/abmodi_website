@@ -1,3 +1,7 @@
 node_modules
 .DS_Store
 dist
+.env
+gcp-key.json
+secret.txt
+*.log
